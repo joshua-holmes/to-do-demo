@@ -63,7 +63,7 @@ function NavBar({ isLoggedIn, setUser }) {
 
   return (
     <>
-      <Title>To-Do List App</Title>
+      <Title>My To-Do List App</Title>
       <Bar>
         <NavLink to="/">{isLoggedIn ? "To-Dos" : "Home"}</NavLink>
         <NavLink to="/about-me">About Me</NavLink>
